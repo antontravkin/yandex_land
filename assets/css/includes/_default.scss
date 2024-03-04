@@ -1,0 +1,61 @@
+body{
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $black;
+}
+
+h1, h2, h3{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h1{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+hr{
+    height: 2px;
+    background-color: $gray;
+}
+main{
+    padding: 19px;
+}
+.btn{
+    width: 100%;
+    height: 46px;
+    border-radius: 20px;
+}
+
+.btn-hover-yellow:hover{
+    background-color: $yellow;
+    transition: all 0.3s;
+}
+
+.btn-hover-black:hover{
+    background-color: $btn-black;
+    color: $white;
+    transition: all 0.3s;
+}
+
+.btn-black{
+    background-color: $btn-black;
+    color: $white;
+}
+
+.btn-white{
+    background-color: $btn-white;
+    color: $black;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+}
+
+.text-red{
+    color: $red;
+}
