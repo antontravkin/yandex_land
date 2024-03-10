@@ -1,3 +1,38 @@
-.stages-item{
-    background-image: url('/assets/img/bg.png');
+.stages{
+    &__block{
+        overflow: hidden;
+    }
+
+    &__items{
+        display: flex;
+        overflow: hidden;
+        width: max-content;
+    }
+    &__item{
+        background-image: url('/assets/img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        width: calc(100vw - 38px);
+        display: flex;
+        margin-right: 40px;
+        &-number{
+            margin-right: 20px;
+            span{
+                background-color: $white;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $black;
+                border-radius: 50%;
+
+            }
+
+        }
+
+    }
+    
 }
